@@ -78,7 +78,7 @@ export default {
 #wave {
   position: relative;
   align-items: center;
-  background-color: #810087;
+  background-color: #0081CC;
   overflow: hidden;
   bottom: -35vh;
   height: 30vh;
