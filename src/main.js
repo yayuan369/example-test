@@ -9,6 +9,7 @@ import App from './App'
 
 import Home from './components/HelloFromVux'
 import test from './pages/test.vue'
+import wave from './pages/wave.vue'
 Vue.use(VueRouter)
 
 const routes = [{
@@ -19,6 +20,11 @@ const routes = [{
   path: '/test',
   name: 'test',
   component: test
+},
+{
+  path: '/wave',
+  name: 'wave',
+  component: wave
 }]
 
 const router = new VueRouter({
