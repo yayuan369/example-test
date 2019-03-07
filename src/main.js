@@ -11,8 +11,11 @@ Vue.prototype.$echarts = echarts  //注册组件
 
 
 import Home from './components/HelloFromVux'
-import test from './pages/test.vue'
-import wave from './pages/wave.vue'
+import Test from './pages/test.vue'
+import Wave from './pages/wave.vue'
+import Mymap from './pages/myMap.vue'
+import Myecharts from './pages/myEcharts.vue'
+
 Vue.use(VueRouter)
 
 const routes = [{
@@ -22,12 +25,22 @@ const routes = [{
 {
   path: '/test',
   name: 'test',
-  component: test
+  component: Test
 },
 {
   path: '/wave',
   name: 'wave',
-  component: wave
+  component: Wave
+},
+{
+  path: '/myMap',
+  name: 'myMap',
+  component: Mymap
+},
+{
+  path: '/myEcharts',
+  name: 'myEcharts',
+  component: Myecharts
 }]
 
 const router = new VueRouter({

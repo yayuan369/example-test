@@ -14,6 +14,11 @@ let webpackConfig = {
   entry: {
     app: './src/main.js'
   },
+  externals: {
+    // 百度地图
+    "BMap":"BMap"
+  },
+
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
