@@ -5,6 +5,9 @@ import FastClick from 'fastclick'
 import VueRouter from 'vue-router'
 import App from './App'
 
+//引入echarts
+import echarts from 'echarts' 
+Vue.prototype.$echarts = echarts  //注册组件
 
 
 import Home from './components/HelloFromVux'
