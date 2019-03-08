@@ -29,11 +29,13 @@ const routes = [{
   name: 'test',
   component: Test
 },
+//破浪
 {
   path: '/wave',
   name: 'wave',
   component: Wave
 },
+//百度地图
 {
   path: '/myMap',
   name: 'myMap',
@@ -49,6 +51,7 @@ const routes = [{
   name: 'myEcharts2',
   component: Myecharts2
 },
+//echarts模拟迁徙例子
 {
   path: '/myEcharts3',
   name: 'myEcharts3',
