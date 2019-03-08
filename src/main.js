@@ -15,6 +15,8 @@ import Test from './pages/test.vue'
 import Wave from './pages/wave.vue'
 import Mymap from './pages/myMap.vue'
 import Myecharts from './pages/myEcharts.vue'
+import Myecharts2 from './pages/myEcharts2.vue'
+import Myecharts3 from './pages/myEcharts3.vue'
 
 Vue.use(VueRouter)
 
@@ -41,6 +43,16 @@ const routes = [{
   path: '/myEcharts',
   name: 'myEcharts',
   component: Myecharts
+},
+{
+  path: '/myEcharts2',
+  name: 'myEcharts2',
+  component: Myecharts2
+},
+{
+  path: '/myEcharts3',
+  name: 'myEcharts3',
+  component: Myecharts3
 }]
 
 const router = new VueRouter({
